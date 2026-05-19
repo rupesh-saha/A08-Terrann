@@ -8,10 +8,10 @@ const AllTiles = async () => {
   return (
     <div className="min-h-screen bg-[#fcfcfc]">
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-24">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
         <div className="text-center mb-16 px-4">
 
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-90 mb-6">
             The Gallery
           </h1>
 
