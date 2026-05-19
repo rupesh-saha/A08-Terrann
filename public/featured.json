@@ -1,0 +1,50 @@
+[
+  {
+    "id": "tile_001",
+    "title": "Ceramic Blue Tile",
+    "description": "Premium ceramic tile with a deep blue glaze finish.",
+    "image": "https://images.unsplash.com/photo-1692033071169-7e85c8039695?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "ceramic",
+    "price": 45.99,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_002",
+    "title": "Modern Geometric Black",
+    "description": "Matte black geometric patterns for contemporary spaces.",
+    "image": "https://www.marazzitile.co.uk/app/uploads/collezioni/grande-solid-color/marazzi_vero_027.jpg",
+    "category": "porcelain",
+    "price": 55.00,
+    "currency": "USD",
+    "dimensions": "30x60 cm",
+    "material": "Porcelain",
+    "inStock": true
+  },
+  {
+    "id": "tile_003",
+    "title": "Rustic Terracotta",
+    "description": "Warm, earthy terracotta tiles perfect for patios and sunrooms.",
+    "image": "https://images.unsplash.com/photo-1748724919657-0cc2b3484f19?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "terracotta",
+    "price": 38.50,
+    "currency": "USD",
+    "dimensions": "40x40 cm",
+    "material": "Clay",
+    "inStock": true
+  },
+  {
+    "id": "tile_004",
+    "title": "White Marble Hexagon",
+    "description": "Luxurious white marble with subtle grey veining.",
+    "image": "https://www.marazzitile.co.uk/app/uploads/collezioni/terramater/marazzi_crogiolo_terramater_018.jpg",
+    "category": "marble",
+    "price": 89.99,
+    "currency": "USD",
+    "dimensions": "20x20 cm",
+    "material": "Marble",
+    "inStock": false
+  }
+]

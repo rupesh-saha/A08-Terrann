@@ -1,5 +1,9 @@
+import { getAllCards } from "@/lib/data";
 
-const AllTiles = () => {
+const AllTiles = async () => {
+  const Tiles = await getAllCards();
+  console.log(Tiles);
+
   return (
     <div>
       all tiles
