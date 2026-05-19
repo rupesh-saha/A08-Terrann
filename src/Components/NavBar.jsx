@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import NavLink from './NavLink';
 
 const NavBar = () => {
   return (
@@ -35,9 +36,9 @@ const NavBar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-medium tracking-wide">
           
-          <li><Link href="/" className="hover:text-gray-300 transition-colors">Home</Link></li>
-          <li><Link href="/all-tiles" className="hover:text-gray-300 transition-colors">All Tiles</Link></li>
-          <li><Link href="/my-profile" className="hover:text-gray-300 transition-colors">My Profile</Link></li>
+          <li><NavLink href="/" className="hover:text-gray-300 transition-colors">Home</NavLink></li>
+          <li><NavLink href="/all-tiles" className="hover:text-gray-300 transition-colors">All Tiles</NavLink></li>
+          <li><NavLink href="/my-profile" className="hover:text-gray-300 transition-colors">My Profile</NavLink></li>
         </ul>
       </div>
       <div className="navbar-end mr-2">
