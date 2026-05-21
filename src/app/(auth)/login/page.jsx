@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FcGoogle } from 'react-icons/fc';
+import { toast } from 'react-toastify';
 
 const LoginPage = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -25,11 +26,30 @@ const LoginPage = () => {
     console.log(error);
 
     if (error) {
-      alert(error.message);
+      toast(
+        <div className="flex items-center gap-4">
+          <div className="w-2 h-2 bg-red-600 rounded-full"></div>
+          <div>
+            <span className="block text-gray-900">Access Denied</span>
+            <span className="block text-[10px] text-gray-500 mt-1 tracking-wide normal-case font-medium">
+              Invalid credentials provided.
+            </span>
+          </div>
+        </div>
+      );;
     }
 
     if (res) {
-      alert("Log In successful");
+      toast(
+        <div className="flex items-center gap-4">
+          <div className="w-2 h-2 bg-gray-900 rounded-full animate-pulse"></div>
+          <div>
+            <span className="block text-gray-900">Authentication Successful</span>
+            <span className="block text-[10px] text-gray-500 mt-1 tracking-wide normal-case font-medium">
+              Welcome back to your curated space.
+            </span>
+          </div>
+        </div>);
     }
   };
 

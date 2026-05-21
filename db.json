@@ -1,0 +1,206 @@
+{
+  "tiles": [
+    {
+      "id": "tile_001",
+      "title": "Ceramic Blue Tile",
+      "description": "Premium ceramic tile with a deep blue glaze finish.",
+      "image": "https://images.unsplash.com/photo-1692033071169-7e85c8039695?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "ceramic",
+      "price": 45.99,
+      "currency": "USD",
+      "dimensions": "60x60 cm",
+      "material": "Ceramic",
+      "inStock": true
+    },
+    {
+      "id": "tile_002",
+      "title": "Modern Geometric Black",
+      "description": "Matte black geometric patterns for contemporary spaces.",
+      "image": "https://www.marazzitile.co.uk/app/uploads/collezioni/grande-solid-color/marazzi_vero_027.jpg",
+      "category": "porcelain",
+      "price": 55.00,
+      "currency": "USD",
+      "dimensions": "30x60 cm",
+      "material": "Porcelain",
+      "inStock": true
+    },
+    {
+      "id": "tile_003",
+      "title": "Rustic Terracotta",
+      "description": "Warm, earthy terracotta tiles perfect for patios and sunrooms.",
+      "image": "https://images.unsplash.com/photo-1748724919657-0cc2b3484f19?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "terracotta",
+      "price": 38.50,
+      "currency": "USD",
+      "dimensions": "40x40 cm",
+      "material": "Clay",
+      "inStock": true
+    },
+    {
+      "id": "tile_004",
+      "title": "White Marble Hexagon",
+      "description": "Luxurious white marble with subtle grey veining.",
+      "image": "https://www.marazzitile.co.uk/app/uploads/collezioni/terramater/marazzi_crogiolo_terramater_018.jpg",
+      "category": "marble",
+      "price": 89.99,
+      "currency": "USD",
+      "dimensions": "20x20 cm",
+      "material": "Marble",
+      "inStock": false
+    },
+    {
+      "id": "tile_005",
+      "title": "Emerald Green Subway",
+      "description": "Glossy subway tiles in deep emerald green, perfect for kitchen backsplashes.",
+      "image": "https://images.unsplash.com/photo-1769184614782-c9c6fdf0b322?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "glass",
+      "price": 62.00,
+      "currency": "USD",
+      "dimensions": "10x30 cm",
+      "material": "Glass",
+      "inStock": true
+    },
+    {
+      "id": "tile_006",
+      "title": "Industrial Concrete Look",
+      "description": "Large format tiles mimicking polished concrete for an industrial aesthetic.",
+      "image": "https://images.unsplash.com/photo-1774516534097-76eb46de7229?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "porcelain",
+      "price": 75.50,
+      "currency": "USD",
+      "dimensions": "80x80 cm",
+      "material": "Porcelain",
+      "inStock": true
+    },
+    {
+      "id": "tile_007",
+      "title": "Moroccan Encaustic",
+      "description": "Hand-poured cement tiles featuring vibrant, traditional Moroccan motifs.",
+      "image": "https://plus.unsplash.com/premium_photo-1699555730779-032e7b5bd0e0?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "cement",
+      "price": 95.00,
+      "currency": "USD",
+      "dimensions": "20x20 cm",
+      "material": "Cement",
+      "inStock": true
+    },
+    {
+      "id": "tile_008",
+      "title": "Natural Slate Stone",
+      "description": "Textured natural slate offering high durability and slip resistance.",
+      "image": "https://images.unsplash.com/photo-1761847246291-4404b4569d5d?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "slate",
+      "price": 54.25,
+      "currency": "USD",
+      "dimensions": "30x30 cm",
+      "material": "Natural Stone",
+      "inStock": true
+    },
+    {
+      "id": "tile_009",
+      "title": "Wood-Look Chevron",
+      "description": "Ceramic tiles that perfectly mimic the warmth and grain of chevron oak hardwood.",
+      "image": "https://www.marazzitile.co.uk/app/uploads/collezioni/crea/marazzi_crea_002-1600x1132.jpg",
+      "category": "ceramic",
+      "price": 68.00,
+      "currency": "USD",
+      "dimensions": "15x60 cm",
+      "material": "Ceramic",
+      "inStock": true
+    },
+    {
+      "id": "tile_010",
+      "title": "Pearl Iridescent Mosaic",
+      "description": "Tiny glass mosaic tiles that catch the light with a mother-of-pearl finish.",
+      "image": "https://images.unsplash.com/photo-1592317502315-8f82edf5f402?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "mosaic",
+      "price": 120.00,
+      "currency": "USD",
+      "dimensions": "30x30 cm (sheet)",
+      "material": "Glass",
+      "inStock": false
+    },
+    {
+      "id": "tile_011",
+      "title": "Travertine Cross-Cut",
+      "description": "Classic honed travertine stone with distinct cross-cut porous detailing.",
+      "image": "https://i.pinimg.com/736x/a0/31/ad/a031adc5346a9a79b84878517b6dfb2f.jpg",
+      "category": "limestone",
+      "price": 82.50,
+      "currency": "USD",
+      "dimensions": "40x60 cm",
+      "material": "Limestone",
+      "inStock": true
+    },
+    {
+      "id": "tile_012",
+      "title": "Midnight Granite",
+      "description": "Ultra-durable polished granite tiles in a deep, speckled midnight black.",
+      "image": "https://images.unsplash.com/photo-1698864551603-0f7aefaebeb4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "granite",
+      "price": 110.00,
+      "currency": "USD",
+      "dimensions": "60x60 cm",
+      "material": "Granite",
+      "inStock": true
+    }
+  ],
+  "featured": [
+    {
+      "id": "tile_001",
+      "title": "Ceramic Blue Tile",
+      "description": "Premium ceramic tile with a deep blue glaze finish.",
+      "image": "https://images.unsplash.com/photo-1692033071169-7e85c8039695?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "ceramic",
+      "price": 45.99,
+      "currency": "USD",
+      "dimensions": "60x60 cm",
+      "material": "Ceramic",
+      "inStock": true
+    },
+    {
+      "id": "tile_002",
+      "title": "Modern Geometric Black",
+      "description": "Matte black geometric patterns for contemporary spaces.",
+      "image": "https://www.marazzitile.co.uk/app/uploads/collezioni/grande-solid-color/marazzi_vero_027.jpg",
+      "category": "porcelain",
+      "price": 55.00,
+      "currency": "USD",
+      "dimensions": "30x60 cm",
+      "material": "Porcelain",
+      "inStock": true
+    },
+    {
+      "id": "tile_003",
+      "title": "Rustic Terracotta",
+      "description": "Warm, earthy terracotta tiles perfect for patios and sunrooms.",
+      "image": "https://images.unsplash.com/photo-1748724919657-0cc2b3484f19?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "terracotta",
+      "price": 38.50,
+      "currency": "USD",
+      "dimensions": "40x40 cm",
+      "material": "Clay",
+      "inStock": true
+    },
+    {
+      "id": "tile_004",
+      "title": "White Marble Hexagon",
+      "description": "Luxurious white marble with subtle grey veining.",
+      "image": "https://www.marazzitile.co.uk/app/uploads/collezioni/terramater/marazzi_crogiolo_terramater_018.jpg",
+      "category": "marble",
+      "price": 89.99,
+      "currency": "USD",
+      "dimensions": "20x20 cm",
+      "material": "Marble",
+      "inStock": false
+    }
+  ],
+  "users": [
+    {
+      "id": "user_001",
+      "email": "hello@example.com",
+      "name": "John Doe",
+      "image": "https://placehold.co/400"
+    }
+  ]
+}

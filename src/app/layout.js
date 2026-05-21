@@ -3,6 +3,8 @@ dns.setServers(['8.8.8.8', '8.8.4.4']);
 
 import "./globals.css";
 import { Montserrat } from 'next/font/google';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -26,7 +28,29 @@ export default function RootLayout({ children }) {
       data-theme="light"
       className={`${montserrat.variable} ${montserrat.variable} h-full antialiased`}
     >
-      <body className={`${montserrat.className} min-h-full flex flex-col`}>{children}</body>
+      <body className={`${montserrat.className} min-h-full flex flex-col`}>
+
+        {children}
+
+        <ToastContainer
+          position="bottom-right"
+          autoClose={4000}
+          hideProgressBar={true} 
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable={false}
+          pauseOnHover
+          closeButton={false} 
+          icon={false} 
+
+          toastClassName="relative flex p-4 mb-4 min-h-[60px] rounded-none justify-between overflow-hidden cursor-pointer bg-white border border-gray-900 text-gray-900 shadow-xl transition-all duration-300"
+          bodyClassName="text-xs font-bold uppercase tracking-widest flex items-center m-0 p-0"
+        />
+
+
+      </body>
     </html>
   );
 }
