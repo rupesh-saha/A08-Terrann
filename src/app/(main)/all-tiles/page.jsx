@@ -11,7 +11,7 @@ const AllTiles = () => {
 
   useEffect(() => {
     const loadTiles = async () => {
-      const res = await fetch('https://a08-terrann.vercel.app/all-tiles.json');
+      const res = await fetch('https://terrann-interior.vercel.app/all-tiles.json');
       const data = await res.json();
 
       setAllTiles(data);
