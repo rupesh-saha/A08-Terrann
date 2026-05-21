@@ -1,5 +1,7 @@
 Terrann Interiors A premium, full-stack architectural tile gallery. Terrann Interiors is a high-end web application designed to catalog and showcase premium ceramic, porcelain, and natural stone tiles. It prioritizes user experience through fluid typography, defensively programmed responsive layouts, and zero-layout-shift data fetching.
 
+Live Link: https://terrann-interior.vercel.app
+
 🛠️ Technologies Used Framework: Next.js (App Router)
 Styling: Tailwind CSS & DaisyUI
 Authentication: BetterAuth
