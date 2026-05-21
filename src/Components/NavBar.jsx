@@ -48,7 +48,7 @@ const NavBar = () => {
           <li><NavLink href="/my-profile" className="hover:text-gray-300 transition-colors">My Profile</NavLink></li>
         </ul>
       </div>
-      <div className="navbar-end mr-2 flex items-center gap-4">
+      <div className="navbar-end mr-2 flex items-center gap-2.5 md:gap-4">
 
         {isPending ? <div className="w-20 h-10 bg-gray-200 animate-pulse rounded-none"></div>
           : session ? (
