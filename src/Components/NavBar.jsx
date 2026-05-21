@@ -1,11 +1,18 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import NavLink from './NavLink';
+import { authClient } from '@/lib/auth-client';
 
 const NavBar = () => {
+  const { data: session, isPending } = authClient.useSession()
+  const user = session?.user;
+
+
   return (
-    
+
     <div className="navbar rounded-2xl max-w-[97%] mx-auto bg-black/40 backdrop-blur-md border border-white/10 fixed top-3 left-0 right-0 z-50 text-white shadow-xl">
       <div className="navbar-start">
         <div className="dropdown">
@@ -22,7 +29,7 @@ const NavBar = () => {
         </div>
 
         <Link href="/" className="btn btn-ghost hover:bg-transparent px-2 my-2">
-          
+
           <Image
             src="/navicon2.png"
             alt="Terrenn Logo"
@@ -35,20 +42,42 @@ const NavBar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-medium tracking-wide">
-          
+
           <li><NavLink href="/" className="hover:text-gray-300 transition-colors">Home</NavLink></li>
           <li><NavLink href="/all-tiles" className="hover:text-gray-300 transition-colors">All Tiles</NavLink></li>
           <li><NavLink href="/my-profile" className="hover:text-gray-300 transition-colors">My Profile</NavLink></li>
         </ul>
       </div>
-      <div className="navbar-end mr-2">
-        
-        <Link 
-          href="/login" 
-          className="font-semibold py-2 px-6 rounded-full border border-white text-white hover:bg-white hover:text-black transition-all duration-300"
-        >
-          Login
-        </Link>
+      <div className="navbar-end mr-2 flex items-center gap-4">
+
+        {isPending ? <div className="w-20 h-10 bg-gray-200 animate-pulse rounded-none"></div>
+          : session ? (
+            <>
+              <Link href="/my-profile" className="w-10 h-10 rounded-full overflow-hidden border border-gray-200 hover:border-gray-900 transition-colors">
+                <Image
+                  src={session.user.image || "https://placehold.co/400"}
+                  alt={session.user.name}
+                  width={40}
+                  height={40}
+                  className="w-full h-full object-cover"
+                />
+              </Link>
+
+              <button
+                className="font-semibold py-2 px-6 rounded-full border border-white text-white hover:bg-white hover:text-black transition-all duration-300" onClick={async () => await authClient.signOut()}>
+                Log Out
+              </button>
+            </>)
+            : (
+              <Link
+                href="/login"
+                className="font-semibold py-2 px-6 rounded-full border border-white text-white hover:bg-white hover:text-black transition-all duration-300"
+              >
+                Log In
+              </Link>
+            )
+
+        }
       </div>
     </div>
   );
